@@ -1,29 +1,37 @@
 <template>
-  <nav>
+  <nav class="fs-2">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/juegos">Juegos</router-link>
   </nav>
-  <router-view/>
+  <router-view />
 </template>
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: hsl(255, 17%, 95%);
+  background-image: url("./assets/Fondo.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
+
 
 nav {
   padding: 30px;
-
+  
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #f0ecea;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #fcfaf8;
     }
   }
 }
