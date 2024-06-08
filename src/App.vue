@@ -22,10 +22,9 @@
   background-size: cover;
 }
 
-
 nav {
   padding: 30px;
-  
+
   a {
     font-weight: bold;
     color: #f0ecea;

@@ -1,23 +1,15 @@
 <template>
-  <div class="home">
-  
-  </div>
+  <div class="home"></div>
 </template>
 
 <script>
-
-
-
 export default {
-  name: 'HomeView',
-  components: {
-   
-  }
-}
+  name: "HomeView",
+  components: {},
+};
 </script>
 <style scoped>
-.home{
+.home {
   font-family: "Chakra Petch", sans-serif;
- 
 }
 </style>
